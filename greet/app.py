@@ -1,6 +1,7 @@
 # Put your app in here.
-from flask import Flask
+from flask import Flask, request
 app = Flask(__name__)
+
 
 @app.route("/welcome")
 def welcome_empty():
